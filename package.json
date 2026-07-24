@@ -1,0 +1,18 @@
+{
+  "name": "token-ninja",
+  "version": "1.0.0",
+  "description": "Figma plugin to Detect orphan colors and text, map them to the closest design tokens",
+  "scripts": {
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.90.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "author": "Kumar Ballari (https://www.linkedin.com/in/kumarballari/)",
+  "license": "MIT"
+}
