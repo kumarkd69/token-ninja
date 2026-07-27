@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html><head><style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1920px;height:960px;overflow:hidden}
+  body{
+    width:1920px;height:960px;
+    background:linear-gradient(135deg,#1D1D1F 0%,#2b2b2e 100%);
+    font-family:-apple-system,'SF Pro Display',Inter,sans-serif;
+    display:flex;align-items:center;justify-content:space-between;
+    padding:0 110px;position:relative;
+  }
+  .left{color:#fff;max-width:820px;z-index:2}
+  .badge{
+    display:inline-flex;align-items:center;gap:10px;
+    background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);
+    padding:10px 20px;border-radius:30px;font-size:22px;font-weight:600;color:#9c9ca0;
+    margin-bottom:36px;
+  }
+  .badge .dot{width:10px;height:10px;border-radius:50%;background:#34C759}
+  h1{font-size:76px;font-weight:800;letter-spacing:-2.5px;line-height:1.05;margin-bottom:28px}
+  h1 span{color:#34C759}
+  p{font-size:30px;color:#b8b8bc;line-height:1.5;font-weight:400;max-width:680px}
+  .mark{
+    width:190px;height:190px;border-radius:42px;background:#fff;color:#1D1D1F;
+    display:flex;align-items:center;justify-content:center;
+    font-weight:800;font-size:74px;letter-spacing:-3px;flex-shrink:0;z-index:2;
+    box-shadow:0 40px 100px rgba(0,0,0,.5);
+  }
+  .swatches{position:absolute;right:130px;bottom:120px;display:flex;gap:14px;z-index:1;opacity:.9}
+  .sw{width:36px;height:36px;border-radius:9px;box-shadow:0 8px 20px rgba(0,0,0,.3)}
+  .grid{position:absolute;inset:0;opacity:.04;background-image:linear-gradient(#fff 1px,transparent 1px),linear-gradient(90deg,#fff 1px,transparent 1px);background-size:64px 64px}
+</style></head>
+<body>
+  <div class="grid"></div>
+  <div class="left">
+    <div class="badge"><span class="dot"></span>FIGMA PLUGIN</div>
+    <h1>Every color and text,<br>mapped to your <span>tokens</span>.</h1>
+    <p>Token Ninja scans any frame for unbound colors and text, then intelligently maps each one to the closest design token — reviewed and applied in one click.</p>
+  </div>
+  <div class="mark">TN</div>
+  <div class="swatches">
+    <div class="sw" style="background:#FF3B30"></div>
+    <div class="sw" style="background:#FF9F0A"></div>
+    <div class="sw" style="background:#34C759"></div>
+    <div class="sw" style="background:#007AFF"></div>
+    <div class="sw" style="background:#AF52DE"></div>
+  </div>
+</body></html>
