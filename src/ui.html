@@ -35,10 +35,11 @@ button:disabled{opacity:.4;cursor:not-allowed}
 .header{padding:var(--s3) var(--s4);display:flex;align-items:center;gap:var(--s3);border-bottom:1px solid var(--border)}
 .logo-mark{
   width:30px;height:30px;border-radius:var(--r2);flex-shrink:0;
-  background:var(--accent);color:#fff;
+  background:#fff;border:1px solid var(--border);
   display:flex;align-items:center;justify-content:center;
-  font-size:14px;font-weight:800;letter-spacing:-.03em;
+  overflow:hidden;
 }
+.logo-mark svg{width:26px;height:26px;display:block}
 .logo-block{flex:1;min-width:0}
 .logo-text{font-size:13px;font-weight:650;letter-spacing:-.01em;display:flex;align-items:center;gap:var(--s2)}
 .logo-dot{width:7px;height:7px;border-radius:50%;background:var(--green);flex-shrink:0}
@@ -327,7 +328,20 @@ button:disabled{opacity:.4;cursor:not-allowed}
 
 <!-- Header -->
 <div class="header">
-  <div class="logo-mark">TN</div>
+  <div class="logo-mark"><svg width="26" height="26" viewBox="0 0 295 295" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_ninja_hdr)">
+<rect width="295" height="295" fill="white"/>
+<path d="M143.145 57.8834C147.884 57.3771 152.676 57.9909 157.134 59.6754C160.57 60.9411 163.152 62.538 166.389 64.0538C173.914 67.578 180.771 72.2034 187.986 76.155L215.191 91.2042C222.023 94.9833 231.913 99.5993 237.277 105.318C240.081 108.306 241.746 115.784 242.499 119.931C245.058 117.266 248.308 110.602 251.078 106.937C259.558 95.8527 269.751 84.6333 281.691 77.2613C287.4 74.0234 290.785 81.8402 293.181 85.5722C295.777 89.6167 299.546 93.128 297.712 98.0073C291.484 101.322 285.038 104.271 279.072 108.083C275.667 110.259 272.503 113.038 269.124 115.279C267.167 116.577 265.802 117.564 264.326 119.389C275.558 118.547 285.482 118.047 296.689 119.825C298.13 120.053 298.554 120.293 299.716 121.155C299.88 121.519 300.044 121.891 300.162 122.273C301.031 125.11 296.915 140.183 295.361 143.15C294.71 143.533 293.935 143.921 293.261 144.279C290.505 144.043 285.244 141.785 281.898 140.933C268.339 137.481 256.339 136.257 242.447 138.227C242.624 144.865 242.441 151.602 242.372 158.246C242.281 167.364 243.281 174.913 238.601 183.168C233.638 190.803 230.349 191.245 222.761 195.705L201.098 208.528L176.292 223.067C167.958 228 161.884 233.17 151.884 234.92C137.074 237.512 127.717 230.804 115.81 223.727L90.5588 208.781L68.6996 195.847C64.1674 193.192 58.2961 190.834 55.0196 186.589C52.3106 183.079 49.6012 178.439 48.9465 173.988C48.2328 169.137 48.286 164.26 48.2973 159.36L48.3227 144.951L48.2895 129.542C48.2983 120.535 48.0035 112.791 53.8666 105.384C57.166 101.215 60.403 100.083 64.8133 97.6476L79.978 89.3876C88.4563 84.8536 96.6045 79.646 105.316 75.5263C107.997 74.2585 110.4 72.3478 112.95 71.0032C117.352 68.6825 121.659 66.2898 126.012 63.8866C131.768 60.8901 136.694 58.7943 143.145 57.8834Z" fill="#121212"/>
+<path d="M96.6695 118.058C103.181 117.802 110.587 117.987 117.183 117.972L161.2 117.986L184.009 117.962C196.821 117.95 204.396 117.341 214.658 126.171C221.609 132.152 225.119 138.363 226.122 147.558C227.171 156.35 224.644 165.195 219.111 172.108C213.127 179.513 204.713 183.355 195.376 184.337C188.243 184.54 180.52 184.368 173.344 184.371L129.879 184.377L108.392 184.403C103.045 184.421 97.256 184.725 92.0197 183.849C82.084 182.211 72.5443 175.165 68.4431 166.015C62.1474 151.97 65.3455 134.542 77.9994 125.226C84.4935 120.446 88.4871 118.694 96.6695 118.058Z" fill="#FD2938"/>
+<path d="M183.656 139.772C190.312 139.097 196.254 143.948 196.925 150.604C197.596 157.26 192.742 163.2 186.085 163.867C179.434 164.534 173.5 159.685 172.83 153.034C172.159 146.382 177.005 140.446 183.656 139.772Z" fill="#FEFDFD"/>
+<path d="M104.823 139.836C111.421 138.896 117.539 143.467 118.508 150.061C119.478 156.656 114.935 162.794 108.345 163.793C101.712 164.799 95.5263 160.221 94.5503 153.584C93.5745 146.946 98.1812 140.781 104.823 139.836Z" fill="#FEFDFD"/>
+</g>
+<defs>
+<clipPath id="clip0_ninja_hdr">
+<rect width="295" height="295" fill="white"/>
+</clipPath>
+</defs>
+</svg></div>
   <div class="logo-block">
     <div class="logo-text">Token Ninja <span class="logo-dot" id="logoDot"></span></div>
     <div class="logo-sub">Every color and text mapped to your tokens</div>
@@ -454,9 +468,10 @@ button:disabled{opacity:.4;cursor:not-allowed}
 
 <div class="footer">
   <a class="credit" href="https://www.linkedin.com/in/kumarballari/" target="_blank" rel="noopener noreferrer">Built by <strong>Kumar Ballari</strong> ❤️</a>
-  <span class="footer-sep">·</span>
-  <!-- ☕ UPDATE this href to your real Buy Me a Coffee / Ko-fi page URL -->
-  <a class="credit coffee" href="https://buymeacoffee.com/kumarballari" target="_blank" rel="noopener noreferrer">☕ Buy me a coffee</a>
+  <!-- ☕ Buy Me a Coffee link removed for now — re-add with:
+       <span class="footer-sep">·</span>
+       <a class="credit coffee" href="YOUR_REAL_URL" target="_blank" rel="noopener noreferrer">☕ Buy me a coffee</a>
+  -->
 </div>
 </div><!-- .app -->
 

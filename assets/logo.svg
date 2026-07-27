@@ -1,45 +1,5 @@
-<!DOCTYPE html>
-<html><head><style>
-  *{margin:0;padding:0;box-sizing:border-box}
-  html,body{width:1920px;height:960px;overflow:hidden}
-  body{
-    width:1920px;height:960px;
-    background:linear-gradient(135deg,#1D1D1F 0%,#2b2b2e 100%);
-    font-family:-apple-system,'SF Pro Display',Inter,sans-serif;
-    display:flex;align-items:center;justify-content:space-between;
-    padding:0 110px;position:relative;
-  }
-  .left{color:#fff;max-width:820px;z-index:2}
-  .badge{
-    display:inline-flex;align-items:center;gap:10px;
-    background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);
-    padding:10px 20px;border-radius:30px;font-size:22px;font-weight:600;color:#9c9ca0;
-    margin-bottom:36px;
-  }
-  .badge .dot{width:10px;height:10px;border-radius:50%;background:#34C759}
-  h1{font-size:76px;font-weight:800;letter-spacing:-2.5px;line-height:1.05;margin-bottom:28px}
-  h1 span{color:#34C759}
-  p{font-size:30px;color:#b8b8bc;line-height:1.5;font-weight:400;max-width:680px}
-  .mark{
-    width:190px;height:190px;border-radius:42px;background:#fff;
-    display:flex;align-items:center;justify-content:center;
-    flex-shrink:0;z-index:2;overflow:hidden;
-    box-shadow:0 40px 100px rgba(0,0,0,.5);
-  }
-  .mark svg{width:160px;height:160px}
-  .swatches{position:absolute;right:130px;bottom:120px;display:flex;gap:14px;z-index:1;opacity:.9}
-  .sw{width:36px;height:36px;border-radius:9px;box-shadow:0 8px 20px rgba(0,0,0,.3)}
-  .grid{position:absolute;inset:0;opacity:.04;background-image:linear-gradient(#fff 1px,transparent 1px),linear-gradient(90deg,#fff 1px,transparent 1px);background-size:64px 64px}
-</style></head>
-<body>
-  <div class="grid"></div>
-  <div class="left">
-    <div class="badge"><span class="dot"></span>FIGMA PLUGIN</div>
-    <h1>Every color and text,<br>mapped to your <span>tokens</span>.</h1>
-    <p>Token Ninja scans any frame for unbound colors and text, then intelligently maps each one to the closest design token — reviewed and applied in one click.</p>
-  </div>
-  <div class="mark"><svg width="160" height="160" viewBox="0 0 295 295" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_cover)">
+<svg width="295" height="295" viewBox="0 0 295 295" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_26008_5961)">
 <rect width="295" height="295" fill="white"/>
 <path d="M143.145 57.8834C147.884 57.3771 152.676 57.9909 157.134 59.6754C160.57 60.9411 163.152 62.538 166.389 64.0538C173.914 67.578 180.771 72.2034 187.986 76.155L215.191 91.2042C222.023 94.9833 231.913 99.5993 237.277 105.318C240.081 108.306 241.746 115.784 242.499 119.931C245.058 117.266 248.308 110.602 251.078 106.937C259.558 95.8527 269.751 84.6333 281.691 77.2613C287.4 74.0234 290.785 81.8402 293.181 85.5722C295.777 89.6167 299.546 93.128 297.712 98.0073C291.484 101.322 285.038 104.271 279.072 108.083C275.667 110.259 272.503 113.038 269.124 115.279C267.167 116.577 265.802 117.564 264.326 119.389C275.558 118.547 285.482 118.047 296.689 119.825C298.13 120.053 298.554 120.293 299.716 121.155C299.88 121.519 300.044 121.891 300.162 122.273C301.031 125.11 296.915 140.183 295.361 143.15C294.71 143.533 293.935 143.921 293.261 144.279C290.505 144.043 285.244 141.785 281.898 140.933C268.339 137.481 256.339 136.257 242.447 138.227C242.624 144.865 242.441 151.602 242.372 158.246C242.281 167.364 243.281 174.913 238.601 183.168C233.638 190.803 230.349 191.245 222.761 195.705L201.098 208.528L176.292 223.067C167.958 228 161.884 233.17 151.884 234.92C137.074 237.512 127.717 230.804 115.81 223.727L90.5588 208.781L68.6996 195.847C64.1674 193.192 58.2961 190.834 55.0196 186.589C52.3106 183.079 49.6012 178.439 48.9465 173.988C48.2328 169.137 48.286 164.26 48.2973 159.36L48.3227 144.951L48.2895 129.542C48.2983 120.535 48.0035 112.791 53.8666 105.384C57.166 101.215 60.403 100.083 64.8133 97.6476L79.978 89.3876C88.4563 84.8536 96.6045 79.646 105.316 75.5263C107.997 74.2585 110.4 72.3478 112.95 71.0032C117.352 68.6825 121.659 66.2898 126.012 63.8866C131.768 60.8901 136.694 58.7943 143.145 57.8834Z" fill="#121212"/>
 <path d="M96.6695 118.058C103.181 117.802 110.587 117.987 117.183 117.972L161.2 117.986L184.009 117.962C196.821 117.95 204.396 117.341 214.658 126.171C221.609 132.152 225.119 138.363 226.122 147.558C227.171 156.35 224.644 165.195 219.111 172.108C213.127 179.513 204.713 183.355 195.376 184.337C188.243 184.54 180.52 184.368 173.344 184.371L129.879 184.377L108.392 184.403C103.045 184.421 97.256 184.725 92.0197 183.849C82.084 182.211 72.5443 175.165 68.4431 166.015C62.1474 151.97 65.3455 134.542 77.9994 125.226C84.4935 120.446 88.4871 118.694 96.6695 118.058Z" fill="#FD2938"/>
@@ -47,16 +7,8 @@
 <path d="M104.823 139.836C111.421 138.896 117.539 143.467 118.508 150.061C119.478 156.656 114.935 162.794 108.345 163.793C101.712 164.799 95.5263 160.221 94.5503 153.584C93.5745 146.946 98.1812 140.781 104.823 139.836Z" fill="#FEFDFD"/>
 </g>
 <defs>
-<clipPath id="clip0_cover">
+<clipPath id="clip0_26008_5961">
 <rect width="295" height="295" fill="white"/>
 </clipPath>
 </defs>
-</svg></div>
-  <div class="swatches">
-    <div class="sw" style="background:#FF3B30"></div>
-    <div class="sw" style="background:#FF9F0A"></div>
-    <div class="sw" style="background:#34C759"></div>
-    <div class="sw" style="background:#007AFF"></div>
-    <div class="sw" style="background:#AF52DE"></div>
-  </div>
-</body></html>
+</svg>
